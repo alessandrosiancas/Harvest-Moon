@@ -1,3 +1,4 @@
+# ITA
 # Harvest Moon 2D (Java Edition)
 
 **Programmazione di Interfacce Grafiche e Dispositivi Mobili**
@@ -18,3 +19,25 @@ Versione semplificata del videogioco per console SNES *Harvest Moon*, con gestio
 ## Come eseguire il gioco
 1) Dal codice sorgente, eseguire il file presente in `src/java/main/Main`.
 2) Dalla sezione **Releases** scaricare il file `Harvest Moon.jar` ed aprirlo.
+
+# ENG
+## Description
+A simplified version of the SNES console video game Harvest Moon, featuring graphical user interface (GUI) management, a game loop, and the reproduction of several gameplay mechanics.
+
+## Authors
+Luis Alessandro Siancas Curi - @alessandrosiancas
+Francesca Moretti - @francycesca
+
+## Structure and Configuration
+src/: Java source code and multimedia assets (sprites, audio, textures).
+
+objects.txt: configuration and default positions of objects in the world.
+
+config.txt: player save state (coordinates, coins, current day, inventory).
+
+configObjects.txt: save file for world modifications (harvesting/placing plants and objects).
+
+## How to Run the Game
+From the source code, run the file located at src/java/main/Main.
+
+From the Releases section, download the Harvest Moon.jar file and run it.
